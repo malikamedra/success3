@@ -1,0 +1,174 @@
+
+   body{ margin:0;
+    padding: 0;
+    font-family: Palatino, URW Palladio L,serif;
+    font-size: 16px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(photo.jpg);
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+   
+    
+}
+#casa{background-image: url(gettyimages.jpg);}
+#kiga{background-image: url(gettyimages2.jpg);}
+#singa{background-image: url(singapour.jpg);}
+#madrid{background-image: url(madrid.jpg);}
+#marseille{background-image: url(marseille.jpg);}
+
+
+#aff{height: 60%;
+width:100% ;
+ background-image: url(gettyimages2.jpg) ;
+;}
+
+#mark{color: white;}
+.main{
+ background-color:#0004;
+ color: black;
+ width: 100%;
+    
+  
+    
+}
+.menu{
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:140px;
+}
+.main .menu .menu_i{
+    display: inline-block;
+    position: relative;
+    transition: 0.7s all;
+}
+.main .menu .menu_i a{
+    padding:12px 24px;
+    text-decoration:none;
+    color:white;
+    display: block;
+}
+.menu_i:hover{
+     background-color:#232527;
+     transform: skewX(20deg)
+     
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.title h1{
+    color: white;
+    font-size:30px;
+    font-family:Palatino, URW Palladio L, serif;
+}
+#span{color: gold;
+font-style: italic;}
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    
+  }
+  .card-image {
+    grid-area: image;
+  }
+  .card-text {
+    grid-area: text;
+  }
+  .card-stats {
+    grid-area: stats; 
+  }
+  .card-image {
+    grid-area: image;
+    background: url("casa1.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  #ecrit1{font-style: italic;}
+  .gallery .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #006eab;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.gallery .box .imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.gallery .box .imgbox img{
+    max-width: 100%;
+    height: 300px;
+    transition: transform 2s;
+}
+.gallery .box:hover .imgbox img{
+    transform: scale(1.2);
+}
+.imge img{
+    width: 750px;
+    height: 450px;
+}
+.gallery{
+    width: 1000px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-image1{ grid-area: image;
+   background-image: url(kigali3.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover; 
+    grid-area: image;
+}
+.card-image2{ grid-area: image;
+    background-image: url(madrid2.jpg);
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+     background-size: cover; 
+     grid-area: image;
+ }
+ 
+ .card-image3{ grid-area: image;
+    background-image: url(marseille3.jpg);
+   border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover; 
+    grid-area: image;}
+
+    .card-image5{ grid-area: image;
+        background-image: url(marseille3.jpg);
+       border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-size: cover; 
+        grid-area: image;}    
